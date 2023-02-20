@@ -34,7 +34,7 @@ If the user exceedes the maximal number of guesses, the round finishes. User can
 
 ## Project implementation
 
-As a data structure I opted for **prefix trie** since it allows to conserve space for the words that have common prefixes. Moreover, choosing prefix trie guarantees that search time complexity will not depend on the number of words but only on the length of the word which results in more scalability while dealing with large amount of data and faster execution. As new words get added to the collection, new child nodes can eventually appear at any of the existing node. Child nodes are sorted in ASCCI order to guarantee faster letter search when checking the word in the trie.
+As a data structure I opted for **prefix trie** since it allows to conserve space for the words that have common prefixes. Moreover, choosing prefix trie guarantees that search time complexity will not depend on the number of words but only on the length of the word which results in more scalability while dealing with large amount of data and faster execution. As new words get added to the collection, new child nodes can eventually appear at any of the existing node. Child nodes are sorted in ASCII order to guarantee faster letter search when checking the word in the trie.
 
 <img src="https://user-images.githubusercontent.com/100211796/220166902-d575f7c8-9363-4d6a-895d-a4d0db27d974.png" width="50%" height="auto" align="right" />
 
