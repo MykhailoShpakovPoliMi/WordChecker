@@ -1,6 +1,5 @@
 # WordChecker
 Advanced version of a popular game named "Wordle"
-## WordChecker 
 
 ## Introduction
 
@@ -20,9 +19,9 @@ As soon as user types `+nuova_partita` the new round gets started.
 
 * Firstly user picks one word from the collection of allowed words. Such word will be the guessed word.
 * Then user sets the maximal number of trials that he/she should fit into while guessing the word.
-* After that user inserts the sequence of words trying to guess the guessed word. After each word letter by letter comparison takes place.
+* After that user inserts the sequence of words trying to guess the guessed word. After each word **letter by letter** comparison takes place.
 
-As an outcome of letter by letter comparison, program indicates which letter of an attempt word stands on the <i>correct position</i> printing the symbol `+`, which one is contained inside the guessed word but stands on <i>another position</i> , printing the symbol `|`, and which one is <i>not contained</i> inside the guessed word printing the symbol `/`. Notice that <b>multiple instances</b> of the same character are considered as <b>separate characters</b> when producing the result.
+As an outcome of letter by letter comparison, program indicates which letter of an attempt word stands on the <i>correct position</i> printing the symbol `+`, which one is contained inside the guessed word but stands on <i>another position</i>, printing the symbol `|`, and which one is <i>not contained</i> inside the guessed word printing the symbol `/`. Notice that <b>multiple instances</b> of the same character are considered as <b>separate characters</b> when producing the result.
 
 Along with letter by letter comparison, program also provides the number of allowed words that are still compatible with the constraints acquired up to this moment of the game.
 
