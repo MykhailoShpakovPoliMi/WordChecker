@@ -43,7 +43,7 @@ Dynamic matrixes and vectors were used to save restrictions derived from each co
 
 ## How to laucnh the game ( example for windows )
 
-1.Install gcc on your computer
+1. **Install gcc on your computer**
 
 Download it on (https://gcc.gnu.org/) and install it following the instructions.
 
@@ -52,11 +52,13 @@ Then you can check if the installation was done by typing this command into comm
 gcc -v
 ```
 
-2.Download the source code 
+
+2. **Download the source code**
 
 Download file _word_checker.c_ from the main branch of this repository
 
-3.Compile it
+
+3. **Compile it**
 
 Go to the directory on your computer where the source file is located.
 Then type into command prompt.
@@ -64,7 +66,8 @@ Then type into command prompt.
 gcc -o word_checker word_checker.c
 ```
 
-4.Execute
+
+4. **Execute**
 
 Now the c code is compiled and you can execute it by typing
 ```bash
@@ -73,6 +76,7 @@ word_checker
 Make sure you are in the same directory as the compiled code file.
 
 Follow the instructions on the command prompt and enjoy the game !
+
 
 ## To be continued
 
